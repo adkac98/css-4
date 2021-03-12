@@ -1,9 +1,100 @@
-
+.big    {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    background-color: chartreuse;
+}
 
 .small {
     height: 200px;
     width: 200px;
-    background-color: red;
-    display: flex;
-    flex-wrap: wrap;
+    position: absolute;
 }    
+
+#one    {
+
+}
+
+#two    {
+    left: 200px;
+}
+
+#three  {
+    left: 400px;
+}
+
+#four {
+    top: 200px;
+}
+
+#five   {
+    top: 200px;
+    right: 200px;
+}
+
+#six    {
+    top: 200px;
+    left: 400px;
+}
+
+#seven  {
+    top: 400px  
+}
+
+#eight  {
+    top:400px;
+    left: 200px;
+}
+
+#nine   {
+    top: 400px;
+    left: 400px;
+    
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+}
